@@ -34,3 +34,35 @@ The designs were created to the following widths:
 
 - Family: [Lexend Deca](https://fonts.google.com/specimen/Lexend+Deca)
 - Weights: 400
+
+
+body{
+    background-color: var(--very-dark-blue);
+    display: grid;
+    min-height: 100vh;
+    font-size: 0.938rem;
+    color: var(--neutral-200);
+    font-weight: var(--fw-regular);
+    font-family: var(--ff-basic);
+  }
+
+  .container{
+    color:var(--neutral-200);
+    display: grid;
+    place-content: center;
+    min-height: 100vh;
+    
+    
+  }
+  .header{
+    font-weight: var(--fw-bold);
+    
+  }
+  .mini_text{
+    color: var(--violet);
+  }
+  .card__stats{
+    text-transform: capitalize;
+    display: flex;
+    flex-direction: column;
+  }
